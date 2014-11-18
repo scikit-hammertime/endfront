@@ -1,0 +1,1675 @@
+/usr/local/lib/python2.7/dist-packages/IPython/utils/path.py:310: UserWarning: IPython dir '/home/ubuntu/.ipython' is not a writable location, using a temp directory.
+  " using a temp directory."%ipdir)
+ * Running on http://0.0.0.0:8888/
+ * Restarting with reloader
+/usr/local/lib/python2.7/dist-packages/IPython/utils/path.py:310: UserWarning: IPython dir '/home/ubuntu/.ipython' is not a writable location, using a temp directory.
+  " using a temp directory."%ipdir)
+ * Running on http://0.0.0.0:8888/
+ * Restarting with reloader
+199.83.220.241 - - [16/Nov/2014 12:32:15] "GET /static/index.html HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:32:15] "GET /static/styles/main.d46c4fc6.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 12:32:15] "GET /static/scripts/scripts.82cc9704.js HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:32:15] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 12:32:16] "GET /static/views/main.html HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:32:21] "GET /medicinalproducts?startsWith=moda HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:32:21] "GET /medicinalproducts?startsWith=modaf HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:32:23] "GET /interactions?medicinalproducts=modafinil&/preexistingconditions= HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 274, in predict
+    s1, s2 = drugnames[0], drugnames[1]
+IndexError: list index out of range
+70.102.70.85 - - [16/Nov/2014 12:32:34] "GET /static/index.html HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:32:35] "GET /static/scripts/scripts.82cc9704.js HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:32:36] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:32:36] "GET /static/styles/main.d46c4fc6.css HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:32:36] "GET /static/views/main.html HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:32:47] "GET /medicinalproducts?startsWith=moda HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:32:48] "GET /medicinalproducts?startsWith=modad HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:32:48] "GET /medicinalproducts?startsWith=moda HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:32:50] "GET /medicinalproducts?startsWith=modaf HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:32:52] "GET /interactions?medicinalproducts=modafinil&/preexistingconditions= HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 274, in predict
+    s1, s2 = drugnames[0], drugnames[1]
+IndexError: list index out of range
+199.83.220.241 - - [16/Nov/2014 12:32:56] "GET /static/index.html HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:32:56] "GET /static/styles/main.d46c4fc6.css HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:32:56] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:32:56] "GET /static/scripts/scripts.82cc9704.js HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:32:57] "GET /static/views/main.html HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:32:59] "GET /medicinalproducts?startsWith=moda HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:33:00] "GET /medicinalproducts?startsWith=modaf HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:33:00] "GET /medicinalproducts?startsWith=modafi HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:33:01] "GET /medicinalproducts?startsWith=modafin HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:33:02] "GET /interactions?medicinalproducts=modafinil&/preexistingconditions= HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 274, in predict
+    s1, s2 = drugnames[0], drugnames[1]
+IndexError: list index out of range
+199.83.220.241 - - [16/Nov/2014 12:33:05] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:33:05] "GET /medicinalproducts?startsWith=advil HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:33:07] "GET /interactions?medicinalproducts=modafinil,advil&/preexistingconditions= HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:33:09] "GET /preexistingconditions?startsWith=high HTTP/1.1" 200 -
+ * Detected change in '/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py', reloading
+=====[ CONSTRUCTING PREDICTOR ]=====
+-----> Loading drugnames
+-----> Loading drug dataframe
+-----> Loading: drug2vec
+-----> Loading lookup table
+-----> Loading classifier
+-----> Loading clf
+=====[ CONSTRUCTION COMPLETE ]=====
+ * Restarting with reloader
+199.83.220.241 - - [16/Nov/2014 12:38:00] "GET /medicinalproducts?startsWith=modaf HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:00] "GET /medicinalproducts?startsWith=moda HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:00] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 12:38:00] "GET /medicinalproducts?startsWith=modafi HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:00] "GET /medicinalproducts?startsWith=modafini HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:00] "GET /medicinalproducts?startsWith=modafin HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:38:00] "GET /static/index.html HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:38:01] "GET /static/styles/main.d46c4fc6.css HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:38:01] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:38:01] "GET /static/scripts/scripts.82cc9704.js HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:38:01] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 12:38:05] "GET /static/styles/main.d46c4fc6.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 12:38:05] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 12:38:05] "GET /static/scripts/scripts.82cc9704.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 12:38:05] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 12:38:08] "GET /medicinalproducts?startsWith=moda HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:09] "GET /medicinalproducts?startsWith=modaf HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:11] "GET /interactions?medicinalproducts=modafinil&/preexistingconditions= HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 274, in predict
+    s1, s2 = drugnames[0], drugnames[1]
+IndexError: list index out of range
+199.83.220.241 - - [16/Nov/2014 12:38:20] "GET /static/index.html HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:20] "GET /static/styles/main.d46c4fc6.css HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:21] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:21] "GET /static/scripts/scripts.82cc9704.js HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:21] "GET /static/views/main.html HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:23] "GET /medicinalproducts?startsWith=moda HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:23] "GET /medicinalproducts?startsWith=modaf HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:23] "GET /medicinalproducts?startsWith=modafi HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:23] "GET /medicinalproducts?startsWith=modafin HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:23] "GET /medicinalproducts?startsWith=modafini HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:25] "GET /interactions?medicinalproducts=modafinil&/preexistingconditions= HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 274, in predict
+    s1, s2 = drugnames[0], drugnames[1]
+IndexError: list index out of range
+70.102.70.85 - - [16/Nov/2014 12:38:36] "GET /static/index.html HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:38:37] "GET /static/styles/main.d46c4fc6.css HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:38:37] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:38:37] "GET /static/scripts/scripts.82cc9704.js HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:38:38] "GET /static/views/main.html HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:38:42] "GET /medicinalproducts?startsWith=tyle HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:38:43] "GET /medicinalproducts?startsWith=tylen HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:38:43] "GET /medicinalproducts?startsWith=tyleno HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:38:43] "GET /medicinalproducts?startsWith=tylenol HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:46] "GET /static/index.html HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:46] "GET /static/styles/main.d46c4fc6.css HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:38:46] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:39:03] "GET /static/scripts/scripts.82cc9704.js HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:39:03] "GET /interactions?medicinalproducts=tylenol&/preexistingconditions= HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 274, in predict
+    s1, s2 = drugnames[0], drugnames[1]
+IndexError: list index out of range
+70.102.70.85 - - [16/Nov/2014 12:39:03] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:39:03] "GET /medicinalproducts?startsWith=advil HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:39:04] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:39:04] "GET /static/views/main.html HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:39:06] "GET /medicinalproducts?startsWith=moda HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:39:07] "GET /medicinalproducts?startsWith=modaf HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:39:07] "GET /medicinalproducts?startsWith=modafi HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:39:07] "GET /medicinalproducts?startsWith=modafin HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:39:07] "GET /medicinalproducts?startsWith=modafini HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:39:09] "GET /interactions?medicinalproducts=modafinil&/preexistingconditions= HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 274, in predict
+    s1, s2 = drugnames[0], drugnames[1]
+IndexError: list index out of range
+70.102.70.85 - - [16/Nov/2014 12:39:10] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:39:10] "GET /medicinalproducts?startsWith=advil HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:39:12] "GET /interactions?medicinalproducts=tylenol,advil&/preexistingconditions= HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:39:15] "GET /preexistingconditions?startsWith=high HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:39:27] "GET /interactions?medicinalproducts=tylenol&/preexistingconditions=high%20risk%20pregnancy HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 274, in predict
+    s1, s2 = drugnames[0], drugnames[1]
+IndexError: list index out of range
+199.83.220.241 - - [16/Nov/2014 12:39:31] "GET /static/index.html HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:39:31] "GET /static/styles/main.d46c4fc6.css HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:39:31] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:39:31] "GET /static/scripts/scripts.82cc9704.js HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:39:32] "GET /static/views/main.html HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:39:35] "GET /medicinalproducts?startsWith=modaf HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:39:35] "GET /medicinalproducts?startsWith=moda HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:39:35] "GET /medicinalproducts?startsWith=modafi HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:39:35] "GET /medicinalproducts?startsWith=modafini HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:39:35] "GET /medicinalproducts?startsWith=modafin HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 12:39:36] "GET /interactions?medicinalproducts=modafinil&/preexistingconditions= HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 274, in predict
+    s1, s2 = drugnames[0], drugnames[1]
+IndexError: list index out of range
+70.102.70.85 - - [16/Nov/2014 12:40:25] "GET /static/index.html HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:40:26] "GET /static/styles/main.d46c4fc6.css HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:40:26] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:40:26] "GET /static/scripts/scripts.82cc9704.js HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:40:26] "GET /static/views/main.html HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:40:30] "GET /medicinalproducts?startsWith=tyle HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:40:32] "GET /medicinalproducts?startsWith=tylen HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:40:32] "GET /medicinalproducts?startsWith=tyleno HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:40:32] "GET /medicinalproducts?startsWith=tylenol HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 12:40:33] "GET /interactions?medicinalproducts=tylenol&/preexistingconditions= HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 274, in predict
+    s1, s2 = drugnames[0], drugnames[1]
+IndexError: list index out of range
+70.102.70.85 - - [16/Nov/2014 12:40:43] "GET /static/index.html HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:40:44] "GET /static/styles/main.d46c4fc6.css HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:40:44] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:40:44] "GET /static/scripts/scripts.82cc9704.js HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 12:40:44] "GET /static/views/main.html HTTP/1.1" 304 -
+=====[ CONSTRUCTING PREDICTOR ]=====
+-----> Loading drugnames
+-----> Loading drug dataframe
+-----> Loading: drug2vec
+-----> Loading lookup table
+-----> Loading classifier
+-----> Loading clf
+=====[ CONSTRUCTION COMPLETE ]=====
+/usr/local/lib/python2.7/dist-packages/IPython/utils/path.py:310: UserWarning: IPython dir '/home/ubuntu/.ipython' is not a writable location, using a temp directory.
+  " using a temp directory."%ipdir)
+ * Running on http://0.0.0.0:8888/
+ * Restarting with reloader
+ * Detected change in '/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py', reloading
+=====[ CONSTRUCTING PREDICTOR ]=====
+-----> Loading drugnames
+-----> Loading drug dataframe
+-----> Loading: drug2vec
+-----> Loading lookup table
+ * Restarting with reloader
+Traceback (most recent call last):
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 6, in <module>
+    from scikit_hammertime.Predictor import Predictor
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/__init__.py", line 2, in <module>
+    from Predictor import Predictor
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 308
+    return predictions,new_list[4]
+         ^
+SyntaxError: invalid syntax
+An exception has occurred, use %tb to see the full traceback.
+
+[1;31mSystemExit[0m[1;31m:[0m 1
+
+/usr/local/lib/python2.7/dist-packages/IPython/utils/path.py:310: UserWarning: IPython dir '/home/ubuntu/.ipython' is not a writable location, using a temp directory.
+  " using a temp directory."%ipdir)
+[1;36m  File [1;32m"scikit_hammertime/Predictor.py"[1;36m, line [1;32m308[0m
+[1;33m    return predictions,new_list[4][0m
+[1;37m         ^[0m
+[1;31mSyntaxError[0m[1;31m:[0m invalid syntax
+
+ * Running on http://0.0.0.0:8888/
+Traceback (most recent call last):
+  File "endfront/server.py", line 69, in <module>
+    app.run(host='0.0.0.0', port=8888)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 772, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 706, in run_simple
+    test_socket.bind((hostname, port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+ * Running on http://0.0.0.0:8888/
+ * Restarting with reloader
+70.102.70.85 - - [16/Nov/2014 14:41:26] "GET /static/index.html HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 14:41:26] "GET /static/index.html HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 14:41:26] "GET /static/styles/main.d842c50c.css HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 14:41:26] "GET /static/scripts/scripts.d79754e4.js HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 14:41:26] "GET /static/styles/main.d842c50c.css HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 14:41:26] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 14:41:26] "GET /static/scripts/scripts.d79754e4.js HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 14:41:27] "GET /static/views/main.html HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 14:41:45] "GET /static/index.html HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 14:41:46] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 14:41:46] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 14:41:46] "GET /static/scripts/scripts.d79754e4.js HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 14:41:46] "GET /static/views/main.html HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 14:43:25] "GET /medicinalproducts?startsWith=tyle HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:8888/
+ * Restarting with reloader
+70.102.70.85 - - [16/Nov/2014 14:48:03] "GET /static/index.html HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 14:48:03] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 14:48:03] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+70.102.70.85 - - [16/Nov/2014 14:48:03] "GET /static/scripts/scripts.88a762ec.js HTTP/1.1" 200 -
+70.102.70.85 - - [16/Nov/2014 14:48:03] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 14:51:43] "GET /static/index.html HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 14:51:45] "GET /static/styles/main.d842c50c.css HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 14:51:45] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 14:51:46] "GET /static/scripts/scripts.73b64f99.js HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 14:51:49] "GET /static/views/main.html HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 14:53:48] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 14:53:48] "GET /static/scripts/scripts.73b64f99.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 14:53:48] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 14:53:48] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 14:53:49] "GET /static/views/main.html HTTP/1.1" 304 -
+ * Running on http://0.0.0.0:8888/
+ * Restarting with reloader
+199.83.220.241 - - [16/Nov/2014 14:54:58] "GET /static/index.html HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 14:54:58] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 14:54:58] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 14:54:58] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 14:54:58] "GET /static/views/main.html HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 14:55:20] "GET /static/index.html HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 14:55:20] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 14:55:20] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 14:55:20] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 14:55:21] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 14:58:20] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 14:58:20] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 14:58:20] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 14:58:20] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 14:58:21] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 14:58:27] "GET /medicinalproducts?startsWith=meth HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 14:58:36] "GET /medicinalproducts?startsWith=coca HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 14:58:36] "GET /medicinalproducts?startsWith=cocai HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 14:58:44] "GET /preexistingconditions?startsWith=epil HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 14:58:44] "GET /preexistingconditions?startsWith=epile HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 14:58:46] "GET /interactions?medicinalproducts=methamphetamine%20(metamfetamine),cocaine&preexistingconditions=epilepsy HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:00:59] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:01:00] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:01:00] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:01:00] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:01:01] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:01:09] "GET /medicinalproducts?startsWith=mari HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:01:18] "GET /medicinalproducts?startsWith=esca HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:01:19] "GET /medicinalproducts?startsWith=esca\ HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:01:21] "GET /medicinalproducts?startsWith=esca HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:01:22] "GET /medicinalproducts?startsWith=esci HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:01:32] "GET /preexistingconditions?startsWith=anxi HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:01:33] "GET /interactions?medicinalproducts=marijuana,escitalopram&preexistingconditions=anxiety HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:04:43] "GET /medicinalproducts?startsWith=vica HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:04:49] "GET /medicinalproducts?startsWith=vico HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:04:59] "GET /medicinalproducts?startsWith=viag HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:05:27] "GET /preexistingconditions?startsWith=asth HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:05:27] "GET /preexistingconditions?startsWith=asthm HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:05:27] "GET /preexistingconditions?startsWith=asthma HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:05:29] "GET /interactions?medicinalproducts=vicodin,viagra&preexistingconditions=asthma HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:07:16] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:07:17] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:07:17] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:07:17] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:07:17] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:07:27] "GET /medicinalproducts?startsWith=moda HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:07:28] "GET /medicinalproducts?startsWith=modaf HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:07:28] "GET /medicinalproducts?startsWith=modafi HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:07:28] "GET /medicinalproducts?startsWith=modafin HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:07:37] "GET /medicinalproducts?startsWith=mari HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:07:37] "GET /medicinalproducts?startsWith=marij HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:07:38] "GET /medicinalproducts?startsWith=mariju HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:07:46] "GET /preexistingconditions?startsWith=nukl HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:07:47] "GET /preexistingconditions?startsWith=null HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:07:56] "GET /preexistingconditions?startsWith=asth HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:07:57] "GET /preexistingconditions?startsWith=asthm HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:07:57] "GET /preexistingconditions?startsWith=asthma HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:07:59] "GET /interactions?medicinalproducts=modafinil,marijuana&preexistingconditions=asthma HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:08:34] "GET /medicinalproducts?startsWith=viag HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:08:35] "GET /medicinalproducts?startsWith=viagr HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:08:35] "GET /medicinalproducts?startsWith=viagra HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:08:38] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:08:38] "GET /medicinalproducts?startsWith=advil HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:08:39] "GET /interactions?medicinalproducts=viagra,advil&preexistingconditions=asthma HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:08:54] "GET /medicinalproducts?startsWith=vico HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:08:54] "GET /medicinalproducts?startsWith=vicod HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:08:55] "GET /interactions?medicinalproducts=viagra,vicodin&preexistingconditions=asthma HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:02] "GET /preexistingconditions?startsWith=canc HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:02] "GET /preexistingconditions?startsWith=cance HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:02] "GET /preexistingconditions?startsWith=cancer HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:03] "GET /interactions?medicinalproducts=viagra,vicodin&preexistingconditions=cancer%20pain HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:15] "GET /medicinalproducts?startsWith=birt HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:15] "GET /medicinalproducts?startsWith=birth HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:15] "GET /medicinalproducts?startsWith=birth%20c HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:15] "GET /medicinalproducts?startsWith=birth%20co HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:15] "GET /medicinalproducts?startsWith=birth%20con HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:15] "GET /medicinalproducts?startsWith=birth%20cont HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:16] "GET /medicinalproducts?startsWith=birth%20contr HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:16] "GET /medicinalproducts?startsWith=birth%20contro HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:16] "GET /medicinalproducts?startsWith=birth%20control HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:18] "GET /medicinalproducts?startsWith=birth%20contro HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:19] "GET /medicinalproducts?startsWith=birth%20contr HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:19] "GET /medicinalproducts?startsWith=birth%20cont HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:19] "GET /medicinalproducts?startsWith=birth%20con HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:19] "GET /medicinalproducts?startsWith=birth%20co HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:19] "GET /medicinalproducts?startsWith=birth%20c HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:19] "GET /medicinalproducts?startsWith=birth HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:59] "GET /medicinalproducts?startsWith=birth%20c HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:59] "GET /medicinalproducts?startsWith=birth%20co HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:09:59] "GET /medicinalproducts?startsWith=birth%20con HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:10:01] "GET /medicinalproducts?startsWith=birth%20con] HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:10:01] "GET /medicinalproducts?startsWith=birth%20con HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:10:01] "GET /medicinalproducts?startsWith=birth%20co HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:10:02] "GET /medicinalproducts?startsWith=birth%20c HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:10:02] "GET /medicinalproducts?startsWith=birth HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:10:02] "GET /medicinalproducts?startsWith=birt HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:10:04] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:10:18] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:10:18] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:10:18] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:10:19] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:10:24] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:10:29] "GET /medicinalproducts?startsWith=coca HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:10:29] "GET /medicinalproducts?startsWith=cocai HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:10:33] "GET /preexistingconditions?startsWith=asth HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:10:33] "GET /preexistingconditions?startsWith=asthm HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:10:33] "GET /preexistingconditions?startsWith=asthma HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:10:34] "GET /interactions?medicinalproducts=advil,cocaine&preexistingconditions=asthma HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:10:38] "GET /medicinalproducts?startsWith=mari HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:10:38] "GET /medicinalproducts?startsWith=marij HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:10:38] "GET /medicinalproducts?startsWith=mariju HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:10:39] "GET /interactions?medicinalproducts=cocaine,marijuana&preexistingconditions=asthma HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:13:27] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:13:28] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:13:38] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:13:38] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:13:39] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:13:51] "GET /medicinalproducts?startsWith=thor HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:14:03] "GET /medicinalproducts?startsWith=ibup HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:14:10] "GET /preexistingconditions?startsWith=asth HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:14:11] "GET /interactions?medicinalproducts=thorazine,ibuprofen&preexistingconditions=asthma HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:16:03] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:16:03] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:16:19] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:16:19] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:16:19] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:16:45] "GET /medicinalproducts?startsWith=mari HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:16:49] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:16:49] "GET /medicinalproducts?startsWith=advil HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:17:02] "GET /preexistingconditions?startsWith=back HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:17:08] "GET /interactions?medicinalproducts=marijuana,advil&preexistingconditions=back%20pain HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:20:35] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:20:35] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:20:35] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:20:35] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:20:36] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:20:44] "GET /medicinalproducts?startsWith=mara HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:20:48] "GET /medicinalproducts?startsWith=mara HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:20:48] "GET /medicinalproducts?startsWith=maraj HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:20:50] "GET /medicinalproducts?startsWith=mara HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:20:51] "GET /medicinalproducts?startsWith=mari HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:20:56] "GET /medicinalproducts?startsWith=alco HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:21:04] "GET /preexistingconditions?startsWith=irit HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:21:06] "GET /preexistingconditions?startsWith=irita HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:21:06] "GET /preexistingconditions?startsWith=irit HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:21:08] "GET /preexistingconditions?startsWith=irri HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:21:09] "GET /preexistingconditions?startsWith=irrit HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:21:11] "GET /interactions?medicinalproducts=marijuana,alcohol&preexistingconditions=irritable%20bowel%20syndrome HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:22:54] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:22:54] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:22:55] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:23:09] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:23:09] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:23:15] "GET /medicinalproducts?startsWith=alco HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:23:16] "GET /medicinalproducts?startsWith=alcoh HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:23:16] "GET /medicinalproducts?startsWith=alcoho HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:23:20] "GET /medicinalproducts?startsWith=caff HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:23:26] "GET /preexistingconditions?startsWith=back HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:23:28] "GET /interactions?medicinalproducts=alcohol,caffeine&preexistingconditions=back%20pain HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:23:52] "GET /preexistingconditions?startsWith=preg HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:23:55] "GET /interactions?medicinalproducts=alcohol,caffeine&preexistingconditions=back%20pain,pregnancy HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:24:04] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:24:04] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:24:04] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:24:04] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:24:04] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:24:16] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:24:17] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:24:29] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:24:29] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:24:29] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:24:39] "GET /medicinalproducts?startsWith=zolo HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:24:53] "GET /medicinalproducts?startsWith=alco HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:24:53] "GET /medicinalproducts?startsWith=alcoh HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:24:53] "GET /medicinalproducts?startsWith=alcoho HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:25:01] "GET /preexistingconditions?startsWith=bipo HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:25:03] "GET /interactions?medicinalproducts=zoloft,alcohol%20(ethanol)&preexistingconditions=bipolar%20ii%20disorder HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:25:37] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:25:37] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:25:37] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:25:37] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:25:38] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:25:45] "GET /medicinalproducts?startsWith=diov HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:25:55] "GET /medicinalproducts?startsWith=ambi HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:25:55] "GET /medicinalproducts?startsWith=ambie HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:26:02] "GET /preexistingconditions?startsWith=high HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:26:06] "GET /preexistingconditions?startsWith=high%20b HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:26:06] "GET /preexistingconditions?startsWith=high%20bl HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:26:06] "GET /preexistingconditions?startsWith=high%20blo HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:26:06] "GET /preexistingconditions?startsWith=high%20bloo HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:26:07] "GET /preexistingconditions?startsWith=high%20blo HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:26:07] "GET /preexistingconditions?startsWith=high%20bl HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:26:07] "GET /preexistingconditions?startsWith=high%20b HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:26:08] "GET /preexistingconditions?startsWith=high HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:26:13] "GET /preexistingconditions?startsWith=bloo HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:26:13] "GET /preexistingconditions?startsWith=blood HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:26:15] "GET /preexistingconditions?startsWith=blood%20p HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:26:15] "GET /preexistingconditions?startsWith=blood%20pr HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:26:15] "GET /preexistingconditions?startsWith=blood%20pre HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:26:21] "GET /interactions?medicinalproducts=diovan,ambien&preexistingconditions=blood%20pressure%20diastolic%20increased HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:32:42] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:32:42] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:33:02] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:33:02] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:33:02] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:33:13] "GET /medicinalproducts?startsWith=oxyt HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:33:25] "GET /medicinalproducts?startsWith=benz HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:33:26] "GET /medicinalproducts?startsWith=benzo HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:33:31] "GET /medicinalproducts?startsWith=benzos HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:33:32] "GET /medicinalproducts?startsWith=benzo HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:33:51] "GET /preexistingconditions?startsWith=ment HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:33:51] "GET /preexistingconditions?startsWith=menta HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:33:51] "GET /preexistingconditions?startsWith=mental HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:33:55] "GET /interactions?medicinalproducts=oxytocin%20(oxytocin),benzonatate%20(benzonatate)&preexistingconditions=mental%20disorder HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:34:40] "GET /medicinalproducts?startsWith=mari HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:34:41] "GET /medicinalproducts?startsWith=marij HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:34:41] "GET /medicinalproducts?startsWith=mariju HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:34:41] "GET /medicinalproducts?startsWith=marijua HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:34:41] "GET /medicinalproducts?startsWith=marijuan HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:34:44] "GET /medicinalproducts?startsWith=coca HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:34:44] "GET /medicinalproducts?startsWith=cocai HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:34:44] "GET /medicinalproducts?startsWith=cocain HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:34:45] "GET /medicinalproducts?startsWith=cocaine HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:34:45] "GET /interactions?medicinalproducts=marijuana,cocaine&preexistingconditions=mental%20disorder HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:34:53] "GET /preexistingconditions?startsWith=asth HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:34:53] "GET /preexistingconditions?startsWith=asthm HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:34:53] "GET /preexistingconditions?startsWith=asthma HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:34:54] "GET /interactions?medicinalproducts=marijuana,cocaine&preexistingconditions=mental%20disorder,asthma HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:34:56] "GET /interactions?medicinalproducts=marijuana,cocaine&preexistingconditions=mental%20disorder HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:34:59] "GET /preexistingconditions?startsWith=asth HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:34:59] "GET /preexistingconditions?startsWith=asthm HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:34:59] "GET /preexistingconditions?startsWith=asthma HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:35:00] "GET /interactions?medicinalproducts=marijuana,cocaine&preexistingconditions=asthma HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:35:18] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:35:18] "GET /medicinalproducts?startsWith=advil HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:35:19] "GET /interactions?medicinalproducts=marijuana,advil&preexistingconditions=asthma HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:38:50] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:38:51] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:38:51] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:39:09] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:39:09] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:39:19] "GET /medicinalproducts?startsWith=ibup HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:39:28] "GET /medicinalproducts?startsWith=warf HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:39:46] "GET /preexistingconditions?startsWith=asth HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:39:48] "GET /interactions?medicinalproducts=ibuprofen,warfarin&preexistingconditions=asthma HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:41:52] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:41:52] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:41:52] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:41:52] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:41:53] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:42:09] "GET /medicinalproducts?startsWith=nifa HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:42:12] "GET /medicinalproducts?startsWith=nifad HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:42:16] "GET /medicinalproducts?startsWith=nifada HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:42:16] "GET /medicinalproducts?startsWith=nifadap HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:42:16] "GET /medicinalproducts?startsWith=nifadapi HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:42:16] "GET /medicinalproducts?startsWith=nifadapin HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:42:16] "GET /medicinalproducts?startsWith=nifadapine HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:42:20] "GET /medicinalproducts?startsWith=nifadapin HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:42:20] "GET /medicinalproducts?startsWith=nifadapi HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:42:20] "GET /medicinalproducts?startsWith=nifadap HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:42:20] "GET /medicinalproducts?startsWith=nifada HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:42:20] "GET /medicinalproducts?startsWith=nifad HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:42:21] "GET /medicinalproducts?startsWith=nifa HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:42:22] "GET /medicinalproducts?startsWith=niph HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:42:33] "GET /medicinalproducts?startsWith=adde HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:42:42] "GET /medicinalproducts?startsWith=tyle HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:42:42] "GET /medicinalproducts?startsWith=tylen HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:42:48] "GET /preexistingconditions?startsWith=head HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:42:49] "GET /interactions?medicinalproducts=adderall,tylenol&preexistingconditions=headache HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:44:26] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:44:26] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:44:26] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:44:26] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:44:27] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:44:32] "GET /medicinalproducts?startsWith=mari HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:44:38] "GET /medicinalproducts?startsWith=ecst HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:44:48] "GET /medicinalproducts?startsWith=ecst HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:44:49] "GET /medicinalproducts?startsWith=ecsta HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:44:49] "GET /medicinalproducts?startsWith=ecstas HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:44:49] "GET /medicinalproducts?startsWith=ecstast HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:44:50] "GET /medicinalproducts?startsWith=ecstas HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:44:51] "GET /medicinalproducts?startsWith=ecstasy HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:44:54] "GET /medicinalproducts?startsWith=ecstas HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:44:54] "GET /medicinalproducts?startsWith=ecsta HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:44:54] "GET /medicinalproducts?startsWith=ecst HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:14] "GET /medicinalproducts?startsWith=meth HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:14] "GET /medicinalproducts?startsWith=methy HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:15] "GET /medicinalproducts?startsWith=methyl HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:24] "GET /preexistingconditions?startsWith=thal HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:25] "GET /preexistingconditions?startsWith=thale HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:25] "GET /preexistingconditions?startsWith=thalel HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:25] "GET /preexistingconditions?startsWith=thalels HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:25] "GET /preexistingconditions?startsWith=thalelss HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:26] "GET /preexistingconditions?startsWith=thalelss= HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:26] "GET /preexistingconditions?startsWith=thalelss== HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:26] "GET /preexistingconditions?startsWith=thalelss=== HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:27] "GET /preexistingconditions?startsWith=thalelss== HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:27] "GET /preexistingconditions?startsWith=thalelss= HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:27] "GET /preexistingconditions?startsWith=thalelss HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:27] "GET /preexistingconditions?startsWith=thalels HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:27] "GET /preexistingconditions?startsWith=thalel HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:27] "GET /preexistingconditions?startsWith=thale HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:28] "GET /preexistingconditions?startsWith=thal HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:30] "GET /interactions?medicinalproducts=marijuana,methylenedioxyamphetamine&preexistingconditions=thalassaemia HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:45:39] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:45:39] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:45:40] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:45:40] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:45:59] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:47:01] "GET /medicinalproducts?startsWith=alco HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:47:01] "GET /medicinalproducts?startsWith=alcoh HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:47:04] "GET /medicinalproducts?startsWith=mari HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:47:05] "GET /medicinalproducts?startsWith=marij HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:47:05] "GET /medicinalproducts?startsWith=mariju HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:47:05] "GET /medicinalproducts?startsWith=marijua HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:47:19] "GET /preexistingconditions?startsWith=head HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:47:20] "GET /interactions?medicinalproducts=alcohol,marijuana&preexistingconditions=headache HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:57:46] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:57:47] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:57:47] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:58:06] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:58:07] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 15:58:47] "GET /medicinalproducts?startsWith=aspi HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:58:47] "GET /medicinalproducts?startsWith=aspir HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:58:47] "GET /medicinalproducts?startsWith=aspiri HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:59:07] "GET /medicinalproducts?startsWith=coca HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:59:07] "GET /medicinalproducts?startsWith=cocai HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:59:07] "GET /medicinalproducts?startsWith=cocain HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:59:15] "GET /preexistingconditions?startsWith=asth HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:59:15] "GET /preexistingconditions?startsWith=asthm HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:59:16] "GET /preexistingconditions?startsWith=asthma HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 15:59:17] "GET /interactions?medicinalproducts=aspirin,cocaine&preexistingconditions=asthma HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 16:12:52] "GET /static/index.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 16:12:54] "GET /static/views/main.html HTTP/1.1" 304 -
+199.83.220.241 - - [16/Nov/2014 16:15:10] "GET /favicon.ico HTTP/1.1" 404 -
+199.83.220.241 - - [16/Nov/2014 16:15:10] "GET /favicon.ico HTTP/1.1" 404 -
+199.83.220.241 - - [16/Nov/2014 16:22:31] "GET /medicinalproducts?startsWith=ader HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 16:22:31] "GET /medicinalproducts?startsWith=adde HTTP/1.1" 200 -
+199.83.220.241 - - [16/Nov/2014 16:22:32] "GET /medicinalproducts?startsWith=adder HTTP/1.1" 200 -
+185.30.96.198 - - [16/Nov/2014 23:19:13] code 400, message Bad request syntax ('\x05\x02\x00\x01')
+185.30.96.198 - - [16/Nov/2014 23:19:13] " " 400 -
+185.30.96.198 - - [16/Nov/2014 23:19:13] code 400, message Bad request syntax ('\x04\x01\x00P[\xe8\x85\x8d\x00')
+185.30.96.198 - - [16/Nov/2014 23:19:13] " P[腍 " 400 -
+185.30.96.198 - - [16/Nov/2014 23:19:13] "GET http://planeta.ru/test.html HTTP/1.1" 404 -
+128.12.254.5 - - [17/Nov/2014 01:22:04] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:22:15] "GET /medicinalproducts?startsWith=nyqu HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:22:15] "GET /medicinalproducts?startsWith=nyqui HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:22:18] "GET /medicinalproducts?startsWith=nyqu HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:22:30] "GET /medicinalproducts?startsWith=prav HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:22:31] "GET /medicinalproducts?startsWith=pravi HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:22:32] "GET /medicinalproducts?startsWith=prav HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:22:33] "GET /medicinalproducts?startsWith=prev HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:22:35] "GET /medicinalproducts?startsWith=previ HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:22:40] "GET /preexistingconditions?startsWith=asth HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:22:41] "GET /preexistingconditions?startsWith=asthm HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:22:41] "GET /preexistingconditions?startsWith=asthma HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:22:42] "GET /interactions?medicinalproducts=advil,previfem&preexistingconditions=asthma HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 280, in predict
+    d1, d2 = self.db.query(s1), self.db.query(s2)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/SQL.py", line 15, in query
+    results = c.execute(q)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (2006, 'MySQL server has gone away')
+128.12.254.5 - - [17/Nov/2014 01:22:51] "GET /static/index.html HTTP/1.1" 304 -
+128.12.254.5 - - [17/Nov/2014 01:22:52] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+128.12.254.5 - - [17/Nov/2014 01:23:01] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+128.12.254.5 - - [17/Nov/2014 01:23:01] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+128.12.254.5 - - [17/Nov/2014 01:23:02] "GET /static/views/main.html HTTP/1.1" 304 -
+128.12.254.5 - - [17/Nov/2014 01:23:05] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:23:05] "GET /medicinalproducts?startsWith=advil HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:23:10] "GET /medicinalproducts?startsWith=prev HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:23:10] "GET /medicinalproducts?startsWith=previ HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:23:14] "GET /preexistingconditions?startsWith=asth HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:23:14] "GET /preexistingconditions?startsWith=asthm HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:23:15] "GET /preexistingconditions?startsWith=asthma HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:23:16] "GET /interactions?medicinalproducts=advil,previfem&preexistingconditions=asthma HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 280, in predict
+    d1, d2 = self.db.query(s1), self.db.query(s2)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/SQL.py", line 15, in query
+    results = c.execute(q)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (2006, 'MySQL server has gone away')
+128.12.254.5 - - [17/Nov/2014 01:23:22] "GET /preexistingconditions?startsWith=asth HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:23:23] "GET /interactions?medicinalproducts=advil,previfem&preexistingconditions=asthma HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 280, in predict
+    d1, d2 = self.db.query(s1), self.db.query(s2)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/SQL.py", line 15, in query
+    results = c.execute(q)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (2006, 'MySQL server has gone away')
+128.12.254.5 - - [17/Nov/2014 01:23:29] "GET /static/index.html HTTP/1.1" 304 -
+128.12.254.5 - - [17/Nov/2014 01:23:29] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+128.12.254.5 - - [17/Nov/2014 01:23:29] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+128.12.254.5 - - [17/Nov/2014 01:23:29] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+128.12.254.5 - - [17/Nov/2014 01:23:38] "GET /static/index.html HTTP/1.1" 304 -
+128.12.254.5 - - [17/Nov/2014 01:23:38] "GET /static/views/main.html HTTP/1.1" 304 -
+128.12.254.5 - - [17/Nov/2014 01:23:38] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+128.12.254.5 - - [17/Nov/2014 01:23:38] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+128.12.254.5 - - [17/Nov/2014 01:23:51] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+128.12.254.5 - - [17/Nov/2014 01:23:51] "GET /static/views/main.html HTTP/1.1" 304 -
+128.12.254.5 - - [17/Nov/2014 01:23:54] "GET /medicinalproducts?startsWith=mari HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:23:54] "GET /medicinalproducts?startsWith=marij HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:23:55] "GET /medicinalproducts?startsWith=mariju HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:23:55] "GET /medicinalproducts?startsWith=marijua HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:23:59] "GET /medicinalproducts?startsWith=coca HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:23:59] "GET /medicinalproducts?startsWith=cocai HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:23:59] "GET /medicinalproducts?startsWith=cocain HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:24:02] "GET /preexistingconditions?startsWith=asth HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:24:03] "GET /preexistingconditions?startsWith=asthm HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 01:24:04] "GET /interactions?medicinalproducts=marijuana,cocaine&preexistingconditions=asthma HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 280, in predict
+    d1, d2 = self.db.query(s1), self.db.query(s2)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/SQL.py", line 15, in query
+    results = c.execute(q)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (2006, 'MySQL server has gone away')
+147.47.216.83 - - [17/Nov/2014 03:22:13] "GET /static/index.html HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:22:13] "GET /static/styles/main.d842c50c.css HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:22:13] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:22:14] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:22:14] "GET /static/views/main.html HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:22:15] "GET /favicon.ico HTTP/1.1" 404 -
+147.47.216.83 - - [17/Nov/2014 03:22:18] "GET /medicinalproducts?startsWith=anti HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:22:19] "GET /medicinalproducts?startsWith=antib HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:22:41] "GET /medicinalproducts?startsWith=anna HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:22:42] "GET /medicinalproducts?startsWith=annab HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:22:42] "GET /medicinalproducts?startsWith=annabo HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:22:43] "GET /medicinalproducts?startsWith=annabol HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:22:43] "GET /medicinalproducts?startsWith=annaboli HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:22:43] "GET /medicinalproducts?startsWith=annabolic HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:22:50] "GET /medicinalproducts?startsWith=anna HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:22:53] "GET /static/index.html HTTP/1.1" 304 -
+147.47.216.83 - - [17/Nov/2014 03:22:53] "GET /static/views/main.html HTTP/1.1" 304 -
+147.47.216.83 - - [17/Nov/2014 03:22:56] "GET /medicinalproducts?startsWith=anti HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:23:02] "GET /medicinalproducts?startsWith=anti HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:23:02] "GET /medicinalproducts?startsWith=antib HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:23:02] "GET /medicinalproducts?startsWith=antibi HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:23:12] "GET /preexistingconditions?startsWith=cold HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:23:13] "GET /interactions?medicinalproducts=antiallergic,antibiotic&preexistingconditions=cold%20sweat HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 280, in predict
+    d1, d2 = self.db.query(s1), self.db.query(s2)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/SQL.py", line 15, in query
+    results = c.execute(q)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (2006, 'MySQL server has gone away')
+147.47.216.83 - - [17/Nov/2014 03:23:27] "GET /preexistingconditions?startsWith=test HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:23:29] "GET /interactions?medicinalproducts=antiallergic,antibiotic&preexistingconditions=testis%20cancer HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 280, in predict
+    d1, d2 = self.db.query(s1), self.db.query(s2)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/SQL.py", line 15, in query
+    results = c.execute(q)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (2006, 'MySQL server has gone away')
+147.47.216.83 - - [17/Nov/2014 03:23:40] "GET /preexistingconditions?startsWith=thro HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:23:40] "GET /preexistingconditions?startsWith=throa HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:23:40] "GET /preexistingconditions?startsWith=throat HTTP/1.1" 200 -
+147.47.216.83 - - [17/Nov/2014 03:23:43] "GET /interactions?medicinalproducts=antiallergic,antibiotic&preexistingconditions=throat%20irritation HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 280, in predict
+    d1, d2 = self.db.query(s1), self.db.query(s2)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/SQL.py", line 15, in query
+    results = c.execute(q)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (2006, 'MySQL server has gone away')
+128.12.254.5 - - [17/Nov/2014 03:41:32] "GET /medicinalproducts?startsWith=ader HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 03:41:35] "GET /medicinalproducts?startsWith=adde HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 03:41:35] "GET /medicinalproducts?startsWith=adder HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 03:41:40] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 03:41:40] "GET /medicinalproducts?startsWith=advil HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 03:41:43] "GET /preexistingconditions?startsWith=asth HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 03:41:43] "GET /preexistingconditions?startsWith=asthm HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 03:41:43] "GET /preexistingconditions?startsWith=asthma HTTP/1.1" 200 -
+128.12.254.5 - - [17/Nov/2014 03:41:44] "GET /interactions?medicinalproducts=adderall,advil&preexistingconditions=asthma HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 280, in predict
+    d1, d2 = self.db.query(s1), self.db.query(s2)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/SQL.py", line 15, in query
+    results = c.execute(q)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (2006, 'MySQL server has gone away')
+67.188.215.117 - - [17/Nov/2014 03:55:33] "GET /static/index.html HTTP/1.1" 200 -
+67.188.215.117 - - [17/Nov/2014 03:55:34] "GET /static/styles/main.d842c50c.css HTTP/1.1" 200 -
+67.188.215.117 - - [17/Nov/2014 03:55:34] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 200 -
+67.188.215.117 - - [17/Nov/2014 03:55:34] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 200 -
+67.188.215.117 - - [17/Nov/2014 03:55:36] "GET /static/views/main.html HTTP/1.1" 200 -
+67.188.215.117 - - [17/Nov/2014 03:55:36] "GET /favicon.ico HTTP/1.1" 404 -
+75.61.64.168 - - [17/Nov/2014 04:27:05] "GET /static/index.html HTTP/1.1" 200 -
+75.61.64.168 - - [17/Nov/2014 04:27:05] "GET /static/styles/main.d842c50c.css HTTP/1.1" 200 -
+75.61.64.168 - - [17/Nov/2014 04:27:06] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 200 -
+75.61.64.168 - - [17/Nov/2014 04:27:06] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 200 -
+75.61.64.168 - - [17/Nov/2014 04:27:07] "GET /static/views/main.html HTTP/1.1" 200 -
+75.61.64.168 - - [17/Nov/2014 04:27:07] "GET /favicon.ico HTTP/1.1" 404 -
+75.61.64.168 - - [17/Nov/2014 04:27:17] "GET /medicinalproducts?startsWith=Ibup HTTP/1.1" 200 -
+75.61.64.168 - - [17/Nov/2014 04:27:18] "GET /medicinalproducts?startsWith=Ibupr HTTP/1.1" 200 -
+75.61.64.168 - - [17/Nov/2014 04:27:18] "GET /medicinalproducts?startsWith=Ibupro HTTP/1.1" 200 -
+75.61.64.168 - - [17/Nov/2014 04:27:26] "GET /medicinalproducts?startsWith=blas HTTP/1.1" 200 -
+75.61.64.168 - - [17/Nov/2014 04:27:33] "GET /medicinalproducts?startsWith=gluc HTTP/1.1" 200 -
+75.61.64.168 - - [17/Nov/2014 04:27:33] "GET /medicinalproducts?startsWith=gluco HTTP/1.1" 200 -
+75.61.64.168 - - [17/Nov/2014 04:27:39] "GET /preexistingconditions?startsWith=none HTTP/1.1" 200 -
+75.61.64.168 - - [17/Nov/2014 04:27:42] "GET /preexistingconditions?startsWith=diab HTTP/1.1" 200 -
+75.61.64.168 - - [17/Nov/2014 04:27:44] "GET /preexistingconditions?startsWith=diabe HTTP/1.1" 200 -
+75.61.64.168 - - [17/Nov/2014 04:27:44] "GET /interactions?medicinalproducts=ibuprofen,glucocorticoid&preexistingconditions=diabetic%20complication HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 280, in predict
+    d1, d2 = self.db.query(s1), self.db.query(s2)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/SQL.py", line 15, in query
+    results = c.execute(q)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (2006, 'MySQL server has gone away')
+50.181.253.65 - - [17/Nov/2014 04:42:18] "GET /static/index.html HTTP/1.1" 200 -
+50.181.253.65 - - [17/Nov/2014 04:42:18] "GET /static/styles/main.d842c50c.css HTTP/1.1" 200 -
+50.181.253.65 - - [17/Nov/2014 04:42:18] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 200 -
+50.181.253.65 - - [17/Nov/2014 04:42:18] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 200 -
+50.181.253.65 - - [17/Nov/2014 04:42:19] "GET /static/views/main.html HTTP/1.1" 200 -
+50.181.253.65 - - [17/Nov/2014 04:42:19] "GET /favicon.ico HTTP/1.1" 404 -
+50.181.253.65 - - [17/Nov/2014 04:42:25] "GET /medicinalproducts?startsWith=tyle HTTP/1.1" 200 -
+50.181.253.65 - - [17/Nov/2014 04:42:34] "GET /medicinalproducts?startsWith=motr HTTP/1.1" 200 -
+50.181.253.65 - - [17/Nov/2014 04:42:41] "GET /preexistingconditions?startsWith=feve HTTP/1.1" 200 -
+50.181.253.65 - - [17/Nov/2014 04:42:41] "GET /preexistingconditions?startsWith=fever HTTP/1.1" 200 -
+50.181.253.65 - - [17/Nov/2014 04:42:45] "GET /preexistingconditions?startsWith=feve HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 06:15:08] "GET /static/index.html HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 06:15:08] "GET /static/styles/main.d842c50c.css HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 06:15:08] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 06:15:09] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 06:15:09] "GET /static/views/main.html HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 06:15:09] "GET /favicon.ico HTTP/1.1" 404 -
+128.12.253.151 - - [17/Nov/2014 06:15:15] "GET /medicinalproducts?startsWith=tyle HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 06:15:15] "GET /medicinalproducts?startsWith=tylen HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 06:15:16] "GET /medicinalproducts?startsWith=tyleno HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 06:15:38] "GET /medicinalproducts?startsWith=morp HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 06:15:38] "GET /medicinalproducts?startsWith=morph HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 06:15:38] "GET /medicinalproducts?startsWith=morphi HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 06:15:38] "GET /medicinalproducts?startsWith=morphin HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 06:15:39] "GET /medicinalproducts?startsWith=morphine HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 06:15:51] "GET /preexistingconditions?startsWith=pain HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:18:09] "GET /static/index.html HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:18:09] "GET /static/styles/main.d842c50c.css HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:18:10] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:18:12] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:18:14] "GET /static/views/main.html HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:18:14] "GET /favicon.ico HTTP/1.1" 404 -
+35.11.205.227 - - [17/Nov/2014 07:18:19] "GET /medicinalproducts?startsWith=adde HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:18:19] "GET /medicinalproducts?startsWith=adder HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:18:20] "GET /medicinalproducts?startsWith=addera HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:18:43] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:18:44] "GET /medicinalproducts?startsWith=advil HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:18:44] "GET /medicinalproducts?startsWith=advils HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:18:44] "GET /medicinalproducts?startsWith=advil HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:18:45] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:18:49] "GET /medicinalproducts?startsWith=nyqu HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:18:49] "GET /medicinalproducts?startsWith=nyqui HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:18:49] "GET /medicinalproducts?startsWith=nyquil HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:18:52] "GET /medicinalproducts?startsWith=nyqui HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:18:53] "GET /medicinalproducts?startsWith=nyqu HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:19:06] "GET /medicinalproducts?startsWith=perc HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:19:07] "GET /medicinalproducts?startsWith=perco HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:19:07] "GET /medicinalproducts?startsWith=percoc HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:19:07] "GET /medicinalproducts?startsWith=percoce HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:19:36] "GET /preexistingconditions?startsWith=narc HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:19:37] "GET /preexistingconditions?startsWith=narco HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:19:37] "GET /preexistingconditions?startsWith=narcol HTTP/1.1" 200 -
+35.11.205.227 - - [17/Nov/2014 07:19:39] "GET /interactions?medicinalproducts=adderall,percocet&preexistingconditions=narcolepsy HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 280, in predict
+    d1, d2 = self.db.query(s1), self.db.query(s2)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/SQL.py", line 15, in query
+    results = c.execute(q)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (2006, 'MySQL server has gone away')
+104.162.114.38 - - [17/Nov/2014 08:30:20] "GET /static/index.html HTTP/1.1" 200 -
+104.162.114.38 - - [17/Nov/2014 08:30:20] "GET /static/styles/main.d842c50c.css HTTP/1.1" 200 -
+104.162.114.38 - - [17/Nov/2014 08:30:20] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 200 -
+104.162.114.38 - - [17/Nov/2014 08:30:21] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 200 -
+104.162.114.38 - - [17/Nov/2014 08:30:21] "GET /static/views/main.html HTTP/1.1" 200 -
+104.162.114.38 - - [17/Nov/2014 08:30:21] "GET /favicon.ico HTTP/1.1" 404 -
+1.39.24.20 - - [17/Nov/2014 09:39:05] "GET /static/index.html HTTP/1.1" 200 -
+1.39.24.20 - - [17/Nov/2014 09:39:05] "GET /static/styles/main.d842c50c.css HTTP/1.1" 200 -
+1.39.24.20 - - [17/Nov/2014 09:39:06] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 200 -
+1.39.24.20 - - [17/Nov/2014 09:39:11] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 200 -
+1.39.24.20 - - [17/Nov/2014 09:39:15] "GET /static/views/main.html HTTP/1.1" 200 -
+1.39.24.20 - - [17/Nov/2014 09:39:15] "GET /favicon.ico HTTP/1.1" 404 -
+181.167.90.116 - - [17/Nov/2014 10:37:21] "GET /static/index.html HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:37:22] "GET /static/styles/main.d842c50c.css HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:37:22] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:37:23] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:37:23] "GET /static/views/main.html HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:37:24] "GET /favicon.ico HTTP/1.1" 404 -
+181.167.90.116 - - [17/Nov/2014 10:37:59] "GET /medicinalproducts?startsWith=mari HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:00] "GET /medicinalproducts?startsWith=marij HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:00] "GET /medicinalproducts?startsWith=mariju HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:00] "GET /medicinalproducts?startsWith=marijua HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:00] "GET /medicinalproducts?startsWith=marijuan HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:01] "GET /medicinalproducts?startsWith=marijuana HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:05] "GET /medicinalproducts?startsWith=alco HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:05] "GET /medicinalproducts?startsWith=alcoh HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:05] "GET /medicinalproducts?startsWith=alcoho HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:05] "GET /medicinalproducts?startsWith=alcohol HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:13] "GET /preexistingconditions?startsWith=diab HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:13] "GET /preexistingconditions?startsWith=diabi HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:14] "GET /preexistingconditions?startsWith=diab HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:14] "GET /preexistingconditions?startsWith=diabe HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:14] "GET /preexistingconditions?startsWith=diabet HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:14] "GET /preexistingconditions?startsWith=diabete HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:15] "GET /preexistingconditions?startsWith=diab HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:15] "GET /preexistingconditions?startsWith=diabe HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:15] "GET /preexistingconditions?startsWith=diabet HTTP/1.1" 200 -
+181.167.90.116 - - [17/Nov/2014 10:38:16] "GET /interactions?medicinalproducts=marijuana,alcohol&preexistingconditions=diabetic%20complication HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/endfront/server.py", line 60, in interact
+    returnlist = app.p.predict(marray)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/Predictor.py", line 280, in predict
+    d1, d2 = self.db.query(s1), self.db.query(s2)
+  File "/home/jhack@stanford.edu/projects/scikit_hammertime/scikit_hammertime/SQL.py", line 15, in query
+    results = c.execute(q)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/local/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (2006, 'MySQL server has gone away')
+128.12.253.151 - - [17/Nov/2014 11:01:04] "GET /static/index.html HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:01:04] "GET /static/styles/main.d842c50c.css HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:01:04] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:01:04] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:01:05] "GET /static/views/main.html HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:01:05] "GET /favicon.ico HTTP/1.1" 404 -
+128.12.253.151 - - [17/Nov/2014 11:01:48] "GET /medicinalproducts?startsWith=tyle HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:01:49] "GET /medicinalproducts?startsWith=tylen HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:01:49] "GET /medicinalproducts?startsWith=tyleno HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:01:58] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:01:58] "GET /medicinalproducts?startsWith=advil HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:02:06] "GET /preexistingconditions?startsWith=nono HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:02:08] "GET /preexistingconditions?startsWith=none HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:02:42] "GET /medicinalproducts?startsWith=coug HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:02:42] "GET /medicinalproducts?startsWith=cough HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:03:03] "GET /medicinalproducts?startsWith=code HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:03:12] "GET /static/index.html HTTP/1.1" 304 -
+128.12.253.151 - - [17/Nov/2014 11:03:12] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+128.12.253.151 - - [17/Nov/2014 11:03:12] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+128.12.253.151 - - [17/Nov/2014 11:03:12] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+128.12.253.151 - - [17/Nov/2014 11:03:13] "GET /static/views/main.html HTTP/1.1" 304 -
+128.12.253.151 - - [17/Nov/2014 11:03:16] "GET /medicinalproducts?startsWith=code HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:03:16] "GET /medicinalproducts?startsWith=codei HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:03:24] "GET /medicinalproducts?startsWith=tyle HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:03:24] "GET /medicinalproducts?startsWith=tylen HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:03:35] "GET /medicinalproducts?startsWith=algo HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:03:35] "GET /medicinalproducts?startsWith=algoc HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:03:35] "GET /medicinalproducts?startsWith=algo HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:03:36] "GET /medicinalproducts?startsWith=alco HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:03:36] "GET /medicinalproducts?startsWith=alcoh HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:03:36] "GET /medicinalproducts?startsWith=alcoho HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:03:37] "GET /medicinalproducts?startsWith=alcohol HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:03:47] "GET /medicinalproducts?startsWith=nexi HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:03:56] "GET /medicinalproducts?startsWith=nexi HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:03:56] "GET /medicinalproducts?startsWith=nexiu HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:04:07] "GET /medicinalproducts?startsWith=viag HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:04:14] "GET /static/index.html HTTP/1.1" 304 -
+128.12.253.151 - - [17/Nov/2014 11:04:14] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+128.12.253.151 - - [17/Nov/2014 11:04:14] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+128.12.253.151 - - [17/Nov/2014 11:04:14] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+128.12.253.151 - - [17/Nov/2014 11:04:14] "GET /static/views/main.html HTTP/1.1" 304 -
+128.12.253.151 - - [17/Nov/2014 11:04:17] "GET /medicinalproducts?startsWith=nexi HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:04:17] "GET /medicinalproducts?startsWith=nexiu HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:04:17] "GET /medicinalproducts?startsWith=nexium HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:04:22] "GET /medicinalproducts?startsWith=viag HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:04:26] "GET /medicinalproducts?startsWith=tyle HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:04:27] "GET /medicinalproducts?startsWith=tylen HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:05:59] "GET /static/index.html HTTP/1.1" 304 -
+128.12.253.151 - - [17/Nov/2014 11:05:59] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+128.12.253.151 - - [17/Nov/2014 11:05:59] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+128.12.253.151 - - [17/Nov/2014 11:05:59] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+128.12.253.151 - - [17/Nov/2014 11:06:00] "GET /static/views/main.html HTTP/1.1" 304 -
+128.12.253.151 - - [17/Nov/2014 11:06:04] "GET /medicinalproducts?startsWith=paxi HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:06:04] "GET /medicinalproducts?startsWith=paxil HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:06:18] "GET /medicinalproducts?startsWith=zolo HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:06:19] "GET /medicinalproducts?startsWith=zolof HTTP/1.1" 200 -
+128.12.253.151 - - [17/Nov/2014 11:06:19] "GET /medicinalproducts?startsWith=zoloft HTTP/1.1" 200 -
+12.130.117.35 - - [17/Nov/2014 11:18:45] "GET /static/index.html HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:18:46] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:18:46] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:18:46] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:18:50] "GET /static/views/main.html HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:19:38] "GET /static/index.html HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:19:40] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:19:40] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:19:40] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:19:43] "GET /static/views/main.html HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:19:55] "GET /static/index.html HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:19:56] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:19:56] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:19:57] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:19:58] "GET /static/views/main.html HTTP/1.1" 304 -
+128.12.252.5 - - [17/Nov/2014 11:20:06] "GET /static/index.html HTTP/1.1" 200 -
+128.12.252.5 - - [17/Nov/2014 11:20:06] "GET /static/styles/main.d842c50c.css HTTP/1.1" 200 -
+128.12.252.5 - - [17/Nov/2014 11:20:06] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 200 -
+128.12.252.5 - - [17/Nov/2014 11:20:06] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 200 -
+128.12.252.5 - - [17/Nov/2014 11:20:06] "GET /static/views/main.html HTTP/1.1" 200 -
+128.12.252.5 - - [17/Nov/2014 11:20:07] "GET /favicon.ico HTTP/1.1" 404 -
+12.130.117.35 - - [17/Nov/2014 11:20:20] "GET /static/index.html HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:20:21] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:20:21] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:20:25] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:20:32] "GET /static/views/main.html HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:20:45] "GET /static/index.html HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:20:46] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:20:46] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:20:46] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:20:48] "GET /static/views/main.html HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:21:41] "GET /static/index.html HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:21:42] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:21:42] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:21:42] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:21:44] "GET /static/views/main.html HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:22:13] "GET /static/index.html HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:22:13] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:22:13] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:22:13] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:22:15] "GET /static/views/main.html HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:23:36] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+12.130.117.35 - - [17/Nov/2014 11:23:39] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+12.130.117.35 - - [17/Nov/2014 11:23:44] "GET /medicinalproducts?startsWith=a HTTP/1.1" 200 -
+12.130.117.35 - - [17/Nov/2014 11:23:58] "GET /medicinalproducts?startsWith=mod HTTP/1.1" 200 -
+12.130.117.35 - - [17/Nov/2014 11:24:09] "GET /static/index.html HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:24:09] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:24:09] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:24:09] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:24:13] "GET /static/views/main.html HTTP/1.1" 304 -
+ * Detected change in 'endfront/server.py', reloading
+=====[ CONSTRUCTING PREDICTOR ]=====
+-----> Loading drugnames
+-----> Loading drug dataframe
+-----> Loading: drug2vec
+-----> Loading lookup table
+-----> Loading classifier
+-----> Loading clf
+=====[ CONSTRUCTION COMPLETE ]=====
+ * Restarting with reloader
+12.130.117.35 - - [17/Nov/2014 11:29:19] "GET /static/index.html HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:29:19] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+12.130.117.35 - - [17/Nov/2014 11:29:21] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:29:21] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:29:21] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:29:22] "GET /static/views/main.html HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:29:36] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+12.130.117.35 - - [17/Nov/2014 11:29:38] "GET /medicinalproducts?startsWith=advil HTTP/1.1" 200 -
+12.130.117.35 - - [17/Nov/2014 11:29:38] "GET /medicinalproducts?startsWith=advi HTTP/1.1" 200 -
+12.130.117.35 - - [17/Nov/2014 11:29:39] "GET /static/index.html HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:29:39] "GET /static/styles/main.d842c50c.css HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:29:40] "GET /static/scripts/vendor.940fd2ad.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:29:40] "GET /static/scripts/scripts.04c61e08.js HTTP/1.1" 304 -
+12.130.117.35 - - [17/Nov/2014 11:29:41] "GET /static/views/main.html HTTP/1.1" 304 -
+2014-11-18 15:52:04 [12623] [INFO] Starting gunicorn 17.5
+2014-11-18 15:52:04 [12623] [INFO] Listening at: http://0.0.0.0:8888 (12623)
+2014-11-18 15:52:04 [12623] [INFO] Using worker: sync
+2014-11-18 15:52:04 [12628] [INFO] Booting worker with pid: 12628
+2014-11-18 15:52:04 [12628] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+ImportError: No module named server
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+ImportError: No module named server
+2014-11-18 15:52:04 [12628] [INFO] Worker exiting (pid: 12628)
+2014-11-18 15:52:04 [12629] [INFO] Booting worker with pid: 12629
+2014-11-18 15:52:04 [12629] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+ImportError: No module named server
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+ImportError: No module named server
+2014-11-18 15:52:04 [12629] [INFO] Worker exiting (pid: 12629)
+2014-11-18 15:52:04 [12630] [INFO] Booting worker with pid: 12630
+2014-11-18 15:52:04 [12630] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+ImportError: No module named server
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+ImportError: No module named server
+2014-11-18 15:52:04 [12630] [INFO] Worker exiting (pid: 12630)
+2014-11-18 15:52:04 [12631] [INFO] Booting worker with pid: 12631
+2014-11-18 15:52:04 [12631] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+ImportError: No module named server
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+ImportError: No module named server
+2014-11-18 15:52:04 [12631] [INFO] Worker exiting (pid: 12631)
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 9, in <module>
+    load_entry_point('gunicorn==17.5', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 42, in run
+    WSGIApplication("%(prog)s [OPTIONS] APP_MODULE").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 144, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 196, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 291, in halt
+    self.stop()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 334, in stop
+    self.reap_workers()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 430, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+2014-11-18 15:53:13 [12669] [INFO] Starting gunicorn 17.5
+2014-11-18 15:53:13 [12669] [INFO] Listening at: http://0.0.0.0:8888 (12669)
+2014-11-18 15:53:13 [12669] [INFO] Using worker: sync
+2014-11-18 15:53:13 [12674] [INFO] Booting worker with pid: 12674
+2014-11-18 15:53:13 [12674] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+ImportError: No module named server
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+ImportError: No module named server
+2014-11-18 15:53:13 [12674] [INFO] Worker exiting (pid: 12674)
+2014-11-18 15:53:13 [12676] [INFO] Booting worker with pid: 12676
+2014-11-18 15:53:13 [12676] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+ImportError: No module named server
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+ImportError: No module named server
+2014-11-18 15:53:13 [12676] [INFO] Worker exiting (pid: 12676)
+2014-11-18 15:53:13 [12677] [INFO] Booting worker with pid: 12677
+2014-11-18 15:53:13 [12677] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+ImportError: No module named server
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+ImportError: No module named server
+2014-11-18 15:53:13 [12677] [INFO] Worker exiting (pid: 12677)
+2014-11-18 15:53:13 [12678] [INFO] Booting worker with pid: 12678
+2014-11-18 15:53:13 [12678] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+ImportError: No module named server
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 473, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 115, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 33, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 362, in import_app
+    __import__(module)
+ImportError: No module named server
+2014-11-18 15:53:13 [12678] [INFO] Worker exiting (pid: 12678)
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 9, in <module>
+    load_entry_point('gunicorn==17.5', 'console_scripts', 'gunicorn')()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 42, in run
+    WSGIApplication("%(prog)s [OPTIONS] APP_MODULE").run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 144, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 196, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 291, in halt
+    self.stop()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 334, in stop
+    self.reap_workers()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 430, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>

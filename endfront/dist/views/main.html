@@ -1,0 +1,54 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4">
+      <div id="medicinalproducts" class="box animate-show" ng-show="showMedicinalProducts">
+        <h2>Drugs</h2>
+          <div>
+            <input ng-model="medicalProductsPrefix" class="form-control" placeholder="What medical products are you taking?">
+          </div>
+        <ul class="dropdown">
+          <li ng-repeat="medicalProduct in medicalProductsBuffer" class="animate-repeat" ng-click="addMedicalProduct(medicalProduct)">
+            <a class="btn btn-primary btn-xs">{{medicalProduct}} &plus;</a>
+          </li>
+        </ul>
+        <hr>
+        <p>
+            <span  ng-repeat="medicalProduct in medicalProducts" class="animate-repeat">
+              <a class="btn btn-primary btn-xs" ng-click="removeMedicalProduct(medicalProduct)"> {{medicalProduct}} &times;</a>
+              <span ng-show="!$last">,</span> 
+            </span>
+          </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div id="conditions" class="box animate-show" ng-show="showConditions">
+        <h2>Health Conditions</h2>
+        <div>
+          <input ng-model="conditionsPrefix" class="form-control" placeholder="What are your medical conditions?">
+        </div>
+        <ul class="dropdown">
+          <li ng-repeat="condition in conditionsBuffer" class="animate-repeat" ng-click="addCondition(condition)">
+            <a class="btn btn-primary btn-xs">{{condition}} &plus;</a>
+          </li>
+        </ul>
+        <hr>
+        <p>
+          <span  ng-repeat="condition in conditions" class="animate-repeat">
+            <a class="btn btn-primary btn-xs" ng-click="removeCondition(condition)"> {{condition}} &times;</a>
+            <span ng-show="!$last">,</span> 
+          </span>
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div id="interactions" class="box animate-show" ng-show="showInteractions">
+        <h2>Interactions</h2>
+        <ul>
+          <li ng-repeat="interaction in interactions" class="animate-repeat">
+            {{interaction.se}} ({{interaction.score}})
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

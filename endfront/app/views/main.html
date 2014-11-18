@@ -1,0 +1,68 @@
+<div class="container-fluid" style="padding-top:1em;padding-bottom:1em;">
+  <div class="row">
+    <div class="col-md-4">
+      <div id="medicinalproducts" class="box animate-show" ng-show="showMedicinalProducts">
+        <h2>Drugs</h2>
+          <div>
+            <input ng-model="medicalProductsPrefix" class="form-control" placeholder="Drugs">
+          </div>
+        <ul class="dropdown">
+          <li ng-repeat="medicalProduct in medicalProductsBuffer" class="animate-repeat" ng-click="addMedicalProduct(medicalProduct)">
+            <a class="btn btn-primary btn-xs">{{medicalProduct}} &plus;</a>
+          </li>
+        </ul>
+        <hr>
+        <p>
+            <span  ng-repeat="medicalProduct in medicalProducts" class="animate-repeat">
+              <a class="btn btn-primary btn-xs" ng-click="removeMedicalProduct(medicalProduct)"> {{medicalProduct}} &times;</a>
+              <span ng-show="!$last">,</span> 
+            </span>
+          </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div id="conditions" class="box animate-show" ng-show="showConditions">
+        <h2>Health Conditions</h2>
+        <div>
+          <input ng-model="conditionsPrefix" class="form-control" placeholder="Medical Conditions?">
+        </div>
+        <ul class="dropdown">
+          <li ng-repeat="condition in conditionsBuffer" class="animate-repeat" ng-click="addCondition(condition)">
+            <a class="btn btn-primary btn-xs">{{condition}} &plus;</a>
+          </li>
+        </ul>
+        <hr>
+        <p>
+          <span  ng-repeat="condition in conditions" class="animate-repeat">
+            <a class="btn btn-primary btn-xs" ng-click="removeCondition(condition)"> {{condition}} &times;</a>
+            <span ng-show="!$last">,</span> 
+          </span>
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div id="interactions" class="box animate-show" ng-show="showInteractions">
+        <h2>Interactions</h2>
+        <p ng-show="interactionScore && interactionScore < 0.5" class="animate-show" style="background-color:lightgreen">
+          Less than 50% chance of interactions, but here are some you may want to watch out for.
+        </p>
+        <p ng-show="interactionScore && interactionScore >= 0.5" class="animate-show" style="background-color:pink">
+          High chance of interaction.
+        </p>
+        <ul ng-show="!showNoResultsFound" >
+          <li ng-repeat="interaction in interactions" class="animate-repeat">
+            {{interaction}}
+          </li>
+        </ul>
+        <p ng-show="showNoResultsFound" class="animate-show">
+          No interactions found.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+  <a ng-click="showVisualzation()">Show associations between drugs</a>
+  <div id="d3">
+  </div>
+</div>

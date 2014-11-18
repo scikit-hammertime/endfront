@@ -1,0 +1,196 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+  }
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+
+  p + h4 {
+    margin-top: 28px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+
+html, body {
+  width : 100%;
+  height : 100%;
+  padding : none;
+}
+
+body {
+  background-color:#FFF;
+}
+
+.box {
+  width : 90%; 
+  margin-left : auto;
+  margin-right: auto;
+  position : relative;
+  padding : .5em;
+  padding-bottom : 3em;
+}
+
+#medicinalproducts {
+  background-color : rgba(173,216,230,0.3);
+  z-index : 2;
+}
+
+#conditions {
+  background-color : rgba(144,238,144,0.3);
+  z-index : 1;
+}
+
+#interactions {
+  background-color : rgba(255,253,56,0.3);
+  z-index : 0;
+}
+
+h1 {
+  text-align : center;
+  position : fixed;
+  width : 100%;
+}
+
+h2 {
+  text-align : center;
+}
+
+.animate-repeat.ng-move,
+.animate-repeat.ng-enter,
+.animate-repeat.ng-leave {
+  -webkit-transition:all linear 0.25s;
+  transition:all linear 0.25s;
+}
+
+.animate-repeat.ng-leave.ng-leave-active,
+.animate-repeat.ng-move,
+.animate-repeat.ng-enter {
+  opacity:0;
+  max-height:0;
+}
+
+.animate-repeat.ng-leave,
+.animate-repeat.ng-move.ng-move-active,
+.animate-repeat.ng-enter.ng-enter-active {
+  opacity:1;
+  max-height:40px;
+}
+
+.animate-show {
+  line-height:20px;
+  opacity:1;
+  padding:10px;
+  border:1px solid lightgrey;
+  background:white;
+}
+
+.animate-show.ng-hide-add.ng-hide-add-active,
+.animate-show.ng-hide-remove.ng-hide-remove-active {
+  -webkit-transition:all linear 0.25s;
+  transition:all linear 0.25s;
+}
+.animate-show.ng-hide {
+  line-height:0;
+  opacity:0;
+  padding:0 10px;
+}
+
+ul.dropdown {
+  position: fixed;
+  background-color : rgba(255,255,255,.5);
+  width : 300px;
+  list-style-type : none;
+  padding: 0;
+}
+
+ul.dropdown li {
+  line-height:2;
+  padding : .25em;  
+  background-color : rgba(255,255,255,.5);
+  -webkit-transition:background-color linear 0.2s;
+  transition:background-color linear 0.2s;
+}
+
+ul.dropdown li:hover {
+  background-color : rgba(200,200,200,.75);
+}

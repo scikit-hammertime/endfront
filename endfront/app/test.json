@@ -1,0 +1,16 @@
+{
+    "alcohol":{
+                "marijuana":0.734,
+                "advil":0.663,
+                "oxycontin":0.8
+    },
+    "oxycontin":{
+                "ibuprofen":0.34,
+                "modafinil":0.8
+    },
+    "birth control":{
+                "alcohol":0.1,
+                "marijuana":0.3
+    }
+
+}
